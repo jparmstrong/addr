@@ -1,6 +1,6 @@
 # addr
 
-Sends sms with twilio with your latest ip address.
+A simple script that sends your public ip address as a text message via twilio. This is an alternative to using dynamic dns.
 
 ## configure
 
