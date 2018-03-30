@@ -17,3 +17,7 @@ Update `config` with ACCOUNTSID, AUTHTOKEN, and CALLERID from your twilio accoun
 @reboot     /home/jp/code/addr/script.sh > /dev/null 2>&1
 00 06 * * * /home/jp/code/addr/script.sh > /dev/null 2>&1
 ```
+
+## credit
+
+twilio-sms is from https://www.twilio.com/labs/bash/sms
