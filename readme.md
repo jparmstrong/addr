@@ -21,3 +21,5 @@ Update `config` with ACCOUNTSID, AUTHTOKEN, and CALLERID from your twilio accoun
 ## credit
 
 twilio-sms is from https://www.twilio.com/labs/bash/sms
+
+public ip address api from http://www.ipify.org
