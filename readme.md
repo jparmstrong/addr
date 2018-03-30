@@ -1,8 +1,17 @@
 # addr
 
-pings github with the latest ip address of your home computer.
+Sends sms with twilio with your latest ip address.
 
-Add to crontab
+## configure
+
+```
+mv config_blank config
+vim config
+```
+
+Update `config` with ACCOUNTSID, AUTHTOKEN, and CALLERID from your twilio account details. TO is the cell number you want to receive the text.
+
+## crontab
 
 ```
 @reboot     /home/jp/code/addr/script.sh > /dev/null 2>&1
